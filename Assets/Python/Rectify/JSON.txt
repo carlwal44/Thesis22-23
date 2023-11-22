@@ -1,0 +1,19 @@
+{
+    "imgURL": "https://maps.googleapis.com/maps/api/streetview?size=640x640&location=50.8766161555728,%204.71259330655447&heading=99.6964535864701&pitch=-0.7&key=AIzaSyD-msy6dK3rSTIPTiX1AVfnkc9wJxooeQs&fov=90",
+    "point1": {
+        "x": 172.0,
+        "y": 609.0
+    },
+    "point2": {
+        "x": 514.0,
+        "y": 578.0
+    },
+    "point3": {
+        "x": 551.0,
+        "y": 72.0
+    },
+    "point4": {
+        "x": 140.0,
+        "y": 59.0
+    }
+}

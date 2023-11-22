@@ -1,0 +1,11 @@
+facade.py 
+
+- uncommented line 6
+
+infer.py
+
+- changed import _init_paths
+
+XMLcreate.py
+
+- line 25, no more etage number added

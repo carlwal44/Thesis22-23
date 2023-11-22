@@ -1,0 +1,13 @@
+<way id="312083447" visible="true" version="1" changeset="26686860" timestamp="2014-11-10T15:51:47Z" user="Sanderd17" uid="253266">
+  <nd ref="3178998488"/>
+  <nd ref="3178998494"/>
+  <nd ref="3178998499"/>
+  <nd ref="3178998495"/>
+  <nd ref="3178998493"/>
+  <nd ref="3178998491"/>
+  <nd ref="3178998488"/>
+  <tag k="addr:housenumber" v="8"/>
+  <tag k="addr:street" v="Neerhofweg"/>
+  <tag k="building" v="house"/>
+ </way>
+ 

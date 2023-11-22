@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+	attributeFormDefault="unqualified"	   
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="facade">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="window">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="window">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:unsignedByte" use="required" />
+									<xs:attribute name="type" type="xs:string" use="required" />
+									<xs:attribute name="width" type="xs:decimal" use="required" />
+									<xs:attribute name="length" type="xs:decimal" use="required" />
+									<xs:attribute name="centerX" type="xs:decimal" use="required" />
+									<xs:attribute name="centerY" type="xs:decimal" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="door">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="door">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:unsignedByte" use="required" />
+									<xs:attribute name="type" type="xs:string" use="required" />
+									<xs:attribute name="width" type="xs:decimal" use="required" />
+									<xs:attribute name="length" type="xs:decimal" use="required" />
+									<xs:attribute name="centerX" type="xs:decimal" use="required" />
+									<xs:attribute name="centerY" type="xs:decimal" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="material" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

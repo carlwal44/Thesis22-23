@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade>
+<window>
+<window id = "1" type = "normalWindow1" width = "0.2" length = "0.4" centerX = "0.5" centerY = "0.3"/>
+<window id = "2" type = "normalWindow3" width = "0.2" length = "0.4" centerX = "0.5" centerY = "0.8"/>
+<window id = "3" type = "wideWindow" width = "0.15" length = "0.15" centerX = "0.2" centerY = "0.8"/>
+</window>
+<door>
+<door id = "1" type = "door0" width = "0.4" length = "0.15" centerX = "0.15" centerY = "0.4"/>
+</door>
+<material> red bricks </material>
+</facade>
